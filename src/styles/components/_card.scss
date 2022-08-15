@@ -1,0 +1,29 @@
+.card {
+  min-width: 260px;
+  max-width: 280px;
+  height: 200px;
+  width: 350px;
+  margin: 10px;
+  background: $color-1;
+  border-radius: 10px;
+  position: relative;
+
+  img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: white;
+    transform: translateY(-50%);
+  }
+
+  .name {
+    color: red;
+  }
+  .type {
+    color: green;
+  }
+}

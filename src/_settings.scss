@@ -1,0 +1,19 @@
+$color-1: #02113c;
+$color-2: #010828;
+$color-3: rgb(100, 100, 100);
+$black: #060d2c;
+$white: rgb(238, 238, 238);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: $color-2;
+  color: $white;
+}
+li {
+  list-style: none;
+}
