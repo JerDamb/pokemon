@@ -23,7 +23,7 @@ const Home = () => {
       const result = await axios.get(pokemon.url);
       setPokemonData((state) => {
         state = [...state, result.data];
-        // state.sort((a, b) => (a.id > b.id ? 1 : -1));
+        state.sort((a, b) => (a.id > b.id ? 1 : -1));
         return state;
       });
     });
@@ -31,9 +31,6 @@ const Home = () => {
   useEffect(() => {
     pokeFunc();
   }, [loadMore]);
-  // useEffect(() => {
-  //   axios.get(loadMore).then((res) => setPokemonsData(res.data.results));
-  // }, []);
 
   return (
     <div className="home-container">
