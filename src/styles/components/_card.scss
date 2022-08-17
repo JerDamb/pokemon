@@ -3,28 +3,26 @@
   max-width: 280px;
   height: 200px;
   width: 350px;
-  margin: 10px;
+  margin: 100px 10px 10px 10px;
   background: $color-1;
   border-radius: 10px;
   position: relative;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
   img {
-    width: 70%;
-    height: 50%;
-    object-fit: cover;
-    object-position: top;
     display: block;
     margin: 0 auto;
     border-radius: 10px;
-    background: white;
     transform: translateY(-50%);
+    background: red;
   }
 
   .number {
     width: 35px;
     height: 35px;
     border-radius: 50%;
-    background: yellow;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,5 +35,6 @@
   }
   .type {
     color: green;
+    background: pink;
   }
 }

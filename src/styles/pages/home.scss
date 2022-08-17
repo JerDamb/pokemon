@@ -1,6 +1,20 @@
 .home-container {
-  h1 {
+  h2 {
     text-align: center;
-    margin: 40px;
+    margin: 60px;
+    font-size: 40px;
+  }
+  .result {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .load-more {
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
   }
 }
