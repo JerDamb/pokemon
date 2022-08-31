@@ -54,8 +54,33 @@
       rgba(125, 84, 200, 1) 100%
     );
   }
-  .type {
-    color: green;
-    background: pink;
+  .abilities {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -30px;
+    .ability {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: sans-serif;
+      box-shadow: black 2px 5px 6px 0px inset;
+      background: $color-2;
+
+      font-size: 1rem;
+      margin: 5px;
+      border-radius: 5px;
+      padding: 5px;
+      width: auto;
+      height: auto;
+      text-transform: uppercase;
+    }
+  }
+  .base-stat {
+    display: flex;
+    h4 {
+      font-family: sans-serif;
+
+      font-weight: 100;
+    }
   }
 }
