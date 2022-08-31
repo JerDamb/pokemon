@@ -11,11 +11,25 @@
     justify-content: center;
   }
 
-  .load-more {
-    height: 40px;
-    width: 200px;
-    border-radius: 10px;
-    cursor: pointer;
-    margin: 10px;
+  .btn-group {
+    display: flex;
+    justify-content: center;
+    button {
+      height: 50px;
+      width: 100%;
+      color: white;
+      border-radius: 10px;
+      cursor: pointer;
+      background: $color-2;
+      text-transform: uppercase;
+      margin: 30px 10% 30px 10%;
+      transition: 0.5s;
+      border: solid 1px white;
+
+      &:hover {
+        background: white;
+        color: black;
+      }
+    }
   }
 }
